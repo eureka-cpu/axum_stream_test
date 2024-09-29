@@ -1,0 +1,13 @@
+[package]
+name = "axum_stream_test"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+axum = "0.7.7"
+futures = "0.3.30"
+rand = "0.8.5"
+tokio = { version = "1.40.0", features = ["full"] }
+
+[dev-dependencies]
+axum-test-helper = "0.4.0"
